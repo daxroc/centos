@@ -6,7 +6,7 @@ node('linux') {
   packer.inside {
 	// some block
 	sh 'env'
-	sh 'which packero
+	sh 'which packer'
 	sh 'which virtualbox'
 	sh 'which vagrant'
   }
