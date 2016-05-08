@@ -1,5 +1,5 @@
 echo("hello from Pipeline");
-node('linux') {
+node('master') {
   dev packer = docker.image('test/jenkins/slave:latest')
 
   packer.pull()
